@@ -1,0 +1,79 @@
+h2, h3{
+ font-size: 18px;
+}
+
+main p{
+    color: #333;
+}
+
+.highligth{
+    color: red;
+}
+
+#important-info{
+    background-color: #effd5f;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: orange;
+}
+
+input:focus{
+    border: 2px solid blue;
+}
+
+section p:first-child{
+ margin-top: 500px;
+}
+
+section p:last-child{
+    background-color: #f0f0f0;
+   }
+
+section h2{
+    color: #0055cc;
+}
+
+header > nav{
+    background-color: #eaeaea;
+}
+
+h2 + p {
+    color: #666;
+}
+
+h2 ~ p{
+    font-family: cursive;
+}
+
+footer p {
+    color: blue !important;
+}
+
+html p{
+    color: green;
+}
+p.highligth{
+    color: red;
+}
+
+aside p {
+    color: blue !important;
+}
+
+main div:last-child{
+
+    height: 200px;
+    width:  400px;
+    border: 2px solid #000;
+}
+
+img{
+    width: 300px;
+    border: 3px solid #333;
+}
+
