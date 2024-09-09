@@ -1,0 +1,46 @@
+.profile-card{
+            height: 350px;
+            width: 200px;
+            border-radius: 10px;
+            border: 2px solid transparent;
+            box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+body{
+    text-align: center;
+}
+
+img {
+    margin-top: 5px;
+    border: 2px solid rgb(36, 36, 255);
+    border-radius: 99%;
+}
+
+.profile-name{
+    font-family: arial;
+    margin-bottom: 3px;
+}
+
+.profile-bio{
+    font-family: cursive;
+    line-height: 100%;
+    font-size: 90%;
+    color: #6e6c6c;
+    margin-top: 0px;
+
+}
+
+.profile-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(47, 152, 232);
+    color: white;
+    border: none;
+    font-family: Arial;
+    margin: 7px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
