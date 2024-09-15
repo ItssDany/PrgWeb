@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+.nav{
+    padding: 10px 30px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+
+.nav__list__logo > a > img{
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 80px;
+}
+
+.nav__list__logo{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.nav__list__links{
+    display: inline-block;
+}
+
+.nav__item{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 80px ;
+}
+
+.nav__item > a{
+    color: #000;
+} 
+
+.nav__item > a:hover{
+    color: #3aa1e1;
+} 
+
+.header__content{
+    border: 2px solid red;
+    background: url("https://images.clarin.com/2018/10/03/PV6KmBOO4_1256x620__1.jpg");
+    background-size: cover;
+    padding: 10px 15px;
+    padding-bottom: 30px ;
+}
+
+.header__title{
+    color: white;
+}
+
+.header__buttons{
+    margin-top: 30px;
+}
+
+.header__button{
+    background-color: white;
+    padding: 5px 15px;
+    color: #000;
+    border-radius: 5px;
+}
+
+.header__button:hover{
+    background-color: rgb(162, 167, 174);
+    color: crimson;
+}
+
+
+.section__title{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.section__description{
+background-color: #000;
+color: whitesmoke;
+border-radius: 10px;
+height: 30px;
+font-size: 1.1rem;
+text-align: center;
+}
+
+.section__title__projects__title{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.section__projects > div > div > img{
+    width: 890px;
+    height: 400px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+}    
+
+
+.project{
+    display: inline-block;
+}
+
+.project__description{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #3f3f3f;
+    color: whitesmoke;
+    
+}
+
+.skills__title{
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skills__list{
+    max-width: 700px;
+    padding: 20px ;
+}
+
+.skills__item{
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    padding-bottom: 18px;
+    border-radius: 15px;
+    color: #3aa1e1;
+}
+
+.skills__item:last-child{
+    margin-bottom: 0;
+}
+
+.skills__name{
+   font-size: 20px;
+}
+
+.skills__description{
+    font-size: 17px;
+    color: black;
+ }
+
+ .skills__progress{
+    background-color: #ccc;
+    height: 8px;
+    border-radius: 10px;
+ }
+
+ .skills__progress-bar{
+    background-color: #3aa1e1;
+    height: 8px;
+    border-radius: 10px;
+    width: 150px;
+ }
+
+.skills__progress-bar-25{
+    width: 25%;
+ }
+
+ .skills__progress-bar-75{
+    width: 75%;
+ }
+
+ .skills__progress-bar-50{
+    width: 50%;
+ }
+
+ .skills__progress-bar-5{
+    width: 5%;
+ }
+
+ /* Absolutas*/
+ /* 
+ -px(pixeles)
+ -cm(centimentro)
+ -mm(milimetros)
+ */
+
+
+/* Relativas*/
+
+ /* 
+ -1rem---
+ -00%-- agarra el tamaño en procentaje del padre
+ -50vw--
+ */
