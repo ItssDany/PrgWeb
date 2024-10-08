@@ -1,0 +1,157 @@
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do__container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.clock{
+    padding: .5rem;
+    background-color: #28a745;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#inputSeconds {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.principal_tittle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"]{
+
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input__container > button{
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input__container > button:hover{
+    background-color: #218838;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background-color: #d4d4d4;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed > div > span:first-child{
+    text-decoration: line-through;
+}
+
+li.completed{
+    background-color: #d4edda;
+}
+
+li > div > button:first-child {
+    border: none;
+    background-color: green;
+    padding: 8px 15px;
+    color:  #fff;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+
+}
+
+li > div > button:last-child {
+    border: none;
+    background-color: red;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+li > div > button:first-child:hover {
+background-color: #01850a;
+cursor: pointer;
+}
+
+li > div > button:last-child:hover {
+    background-color: #c90202;
+    cursor: pointer;
+    }
+
+
+li > div {
+    display: flex;
+    align-items: center;
+}
+
+li > div:first-child{
+    gap: 15px;
+}
+
+
+li > div:last-child{
+    gap: 10px;
+}
+
+li > div > p  {
+    padding-left: 20px;
+    
+}
+
+li > div > span:last-child  {
+    font-size: .6rem;
+    color: #5b5b5b;
+   
+}
+
+li > div > span:first-child  {
+    width: 100px;
+   
+}
